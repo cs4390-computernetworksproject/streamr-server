@@ -1,9 +1,9 @@
 <?php
 /**
- * Initialization file for databse.
+ * Initialization script for database.
  */
 
-require_once('server_config.php');
+require_once(dirname(__FILE__) . '/server_config.php');
 
 // Connect to the MYSQL database.
 $sql = mysqli_connect($_DB_HOST_, $_DB_USER_, $_DB_PASS_) or die("A MySQL error has occurred.<br />Error: (" . mysqli_errno($sql) . ") " . mysqli_error($sql));

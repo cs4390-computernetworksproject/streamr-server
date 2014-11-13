@@ -1,6 +1,6 @@
 <?php
 /**
- * Configuration file for database settings.
+ * Configuration script for database settings.
  */
 
 $_DB_NAME_ = 'streamr';
