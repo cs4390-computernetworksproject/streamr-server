@@ -26,7 +26,7 @@ $query = "CREATE TABLE IF NOT EXISTS MOVIES (
   LENGTH int(11) NOT NULL,
   DIRECTOR varchar(255),
   STAR varchar(255),
-  FILE varchar(255) UNIQUE,
+  FILE varchar(255) UNIQUE NOT NULL,
   PRIMARY KEY (ID)
   )";
 mysqli_query($sql, $query) or die("A MySQL error has occurred.<br />Error: (" . mysqli_errno($sql) . ") " . mysqli_error($sql));
