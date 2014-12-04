@@ -46,19 +46,25 @@ INSERT INTO MOVIES (
             10,
             "Sacha Goedegebure",
             "Sacha Goedegebure",
-            "$host/movies/big_buck_bunny_720p_surround.avi"
+            "http://192.168.0.17:8888/movies/big_buck_bunny_720p_surround.avi"
             ), (
             "Frozen",
             102,
             "Chris Buck",
             "Kristen Bell, Idina Menzel, Jonathan Groff",
-            "$host/movies/frozen.avi"
+            "http://192.168.0.17:8888/movies/frozen.mp4"
             ), (
             "The Shawshank Redemption",
             142,
             "Frank Darabont",
             "Tim Robbins, Morgan Freeman, Bob Gunton",
-            "$host/movies/shawshank.avi"
+            "http://192.168.0.17:8888/movies/shawshank.mp4"
+            ), (
+            "Mr. and Mrs. Smith",
+            1,
+            "Doug Liman",
+            "Brad Pitt, Angelina Jolie, Adam Brody",
+            "http://192.168.0.17:8888/movies/mrmrssmithtrailer.mp4"
             )
 HDOC;
 
